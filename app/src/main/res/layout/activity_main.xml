@@ -1,0 +1,83 @@
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="30dp"
+      android:background="@color/background"
+      >
+
+      <TextView
+          android:gravity="center"
+          android:id="@+id/maintextview"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Calculate Your"
+          android:textColor="@color/text"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+
+      <TextView
+          android:id="@+id/lowerText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="AGE"
+          android:padding="10dp"
+          android:background="@color/foreground"
+          android:textColor="@color/text"
+          android:textSize="25sp"
+          tools:ignore="HardcodedText" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="in mins"
+          android:textColor="@color/text"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/text3"
+          android:backgroundTint="@color/foreground"
+          tools:ignore="HardcodedText"
+          android:text="Select Date"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="THE DATE"
+          android:textColor="@color/text"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Selected Date"
+          android:textColor="@color/text2"
+          android:textSize="15sp"
+          tools:ignore="HardcodedText" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="THE MINUTES"
+          android:textColor="@color/text"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="in minutes till date"
+          android:textColor="@color/text2"
+          android:textSize="15sp"
+          tools:ignore="HardcodedText" />
+  </LinearLayout>
